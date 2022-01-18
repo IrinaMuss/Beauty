@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220118151214">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container header__container_wide">
+				<div class="header__logo">
+					<img src="img/logo/logo.svg" alt="logo">
+				</div>
+				<div class="header__main">
+					<div class="header__body">
+						<nav class="header__menu menu">
+							<ul class="menu__list">
+								<li data-goto="#events" class="menu__link"><a href="#">Мероприятия</a></li>
+								<li data-goto="#timetable" class="menu__link"><a href="#">Расписание</a></li>
+								<li data-goto="#about" class="menu__link"><a href="#">О компании</a></li>
+							</ul>
+							<div class="header__social header__social-burger social">
+								<a href="#" class="social__item">
+									<img src="img/logo/instagram.svg" alt="instagram">
+								</a>
+								<a href="#" class="social__item">
+									<img src="img/logo/facebook.svg" alt="facebook">
+								</a>
+							</div>
+						</nav>
+					</div>
+					<div class="menu__icon">
+						<button type="button" class="icon-menu"><span></span></button>
+					</div>
+					<div class="header__social social">
+						<a href="#" class="social__item">
+							<img src="img/logo/instagram.svg" alt="instagram">
+						</a>
+						<a href="#" class="social__item">
+							<img src="img/logo/facebook.svg" alt="facebook">
+						</a>
+					</div>
+				</div>
+				<!-- <div class="header__button"><button type="submit" class="button">УЗНАТЬ ПОДРОБНЕЕ</button></div> -->
+			</div>
+		</header>
+		<main class="page">
+			<section class="main-page">
+				<div class="main-page__container_wide">
+					<div data-fullscreen class="main-page__container">
+						<div class="main-page__block block-main">
+							<div class="block-main__top top-block-main">
+								<div class="top-block-main__text top-block-main__text_big">онлайн тренировки любой сложности</div>
+								<div class="top-block-main__text">> 15 тренировок</div>
+							</div>
+							<div class="block-main__item">
+								<div class="block-main__bottom bottom-block-main">
+									<div class="bottom-block-main__text">в области спортивной физиологии и нутрициологии</div>
+									<button type="button" class="bottom-block-main__button button button_small">УЗНАТЬ ПОДРОБНЕЕ</button>
+								</div>
+								<a data-goto="#events" href="#" class="block-main__icon _icon-arrow-circle">
+								</a>
+							</div>
+
+						</div>
+						<div data-da=".main-page__block, 767.98" class="main-page__image">
+							<picture><source srcset="img/full-screen-image.webp"type="image/webp"><img src="img/full-screen-image.jpg" alt=""></picture>
+						</div>
+					</div>
+
+				</div>
+			</section>
+			<section id="events" class="events">
+				<div class="events__container">
+					<h2 class="events__title">Ближайшие события</h2>
+					<div class="events__items">
+						<div class="events__item item-events">
+							<div class="item-events__top">
+								<div class="item-events__data">29.06 - 4.07</div>
+								<div class="item-events__title">Марафон выносливости</div>
+								<button data-popup="#Marathon" type="button" class="item-events__button button button_dark">Учавствовать</button>
+							</div>
+							<div class="item-events__bottom bottom-events">
+								<a href="#" class="bottom-events__square">
+									<img data-popup="#Marathon" src="img/events/square.svg" alt="">
+								</a>
+								<div class="bottom-events__name">марафон</div>
+							</div>
+							<div class="item-events__image"><picture><source srcset="img/events/1.webp"type="image/webp"><img src="img/events/1.jpg" alt=""></picture></div>
+						</div>
+						<div class="events__item item-events">
+							<div class="item-events__top">
+								<div class="item-events__data">29.07</div>
+								<div class="item-events__title">Как стать тренером?</div>
+								<button data-popup="#Marathon" type="button" class="item-events__button button button_dark">Учавствовать</button>
+							</div>
+							<div class="item-events__bottom bottom-events">
+								<a href="#" class="bottom-events__square">
+									<img data-popup="#Marathon" src="img/events/square.svg" alt="">
+								</a>
+								<div class="bottom-events__name">вебинар</div>
+							</div>
+							<div class="item-events__image"><picture><source srcset="img/events/2.webp"type="image/webp"><img src="img/events/2.jpg" alt=""></picture></div>
+						</div>
+						<div class="events__item item-events">
+							<div class="item-events__top">
+								<div class="item-events__data">15.07</div>
+								<div class="item-events__title">Йога, как стиль жизни</div>
+								<button data-popup="#Marathon" type="button" class="item-events__button button button_dark">Учавствовать</button>
+							</div>
+							<div class="item-events__bottom bottom-events">
+								<a href="#" class="bottom-events__square">
+									<img data-popup="#Marathon" src="img/events/square.svg" alt="">
+								</a>
+								<div class="bottom-events__name">вебинар</div>
+							</div>
+							<div class="item-events__image"><picture><source srcset="img/events/3.webp"type="image/webp"><img src="img/events/3.jpg" alt=""></picture></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="timetable" class="timetable">
+				<div class="timetable__container">
+					<div class="timetable__titles">
+						<div class="timetable__title">Расписание тренировок</div>
+						<div class="timetable__data">22 - 28 июня</div>
+					</div>
+					<div class="timetable__cards">
+						<div class="timetable__card card-timetable">
+							<div class="card-timetable__data">22 июня, 10:00</div>
+							<div class="card-timetable__body">
+								<img class="card-timetable__image" src="img/timetable/1.svg" alt="">
+								<div class="card-timetable__part2">
+									<h3 class="card-timetable__name">Функциональный тренинг</h3>
+									<div class="card-timetable__text">Упражнения.</div>
+								</div>
+							</div>
+						</div>
+						<div class="timetable__card card-timetable">
+							<div class="card-timetable__data">24 июня, 10:00</div>
+							<div class="card-timetable__body">
+								<img class="card-timetable__image" src="img/timetable/2.svg" alt="">
+								<div class="card-timetable__part2">
+									<h3 class="card-timetable__name">Body sculpt</h3>
+									<div class="card-timetable__text">Упражнения помогут создать красивый рельеф и прийти в спортивную форму.</div>
+								</div>
+							</div>
+						</div>
+						<div class="timetable__card card-timetable">
+							<div class="card-timetable__data">26 июня, 11:00</div>
+							<div class="card-timetable__body">
+								<img class="card-timetable__image" src="img/timetable/3.svg" alt="">
+								<div class="card-timetable__part2">
+									<h3 class="card-timetable__name">L.A.B.</h3>
+									<div class="card-timetable__text">Упражнения помогут создать красивый рельеф и прийти в спортивную форму.</div>
+								</div>
+							</div>
+						</div>
+						<div class="timetable__card card-timetable">
+							<div class="card-timetable__data">23 июня, 10:00</div>
+							<div class="card-timetable__body">
+								<img class="card-timetable__image" src="img/timetable/4.svg" alt="">
+								<div class="card-timetable__part2">
+									<h3 class="card-timetable__name">Силовой микс</h3>
+									<div class="card-timetable__text">Упражнения помогут создать красивый рельеф и прийти в спортивную форму.</div>
+								</div>
+							</div>
+						</div>
+						<div class="timetable__card card-timetable">
+							<div class="card-timetable__data">27 июня, 10:00</div>
+							<div class="card-timetable__body">
+								<img class="card-timetable__image" src="img/timetable/6.svg" alt="">
+								<div class="card-timetable__part2">
+									<h3 class="card-timetable__name">Комплексная разминка</h3>
+									<div class="card-timetable__text">Упражнения помогут создать красивый рельеф и прийти в спортивную форму.</div>
+								</div>
+							</div>
+						</div>
+						<div class="timetable__card card-timetable">
+							<div class="card-timetable__data">25 июня, 11:00</div>
+							<div class="card-timetable__body">
+								<img class="card-timetable__image" src="img/timetable/5.svg" alt="">
+								<div class="card-timetable__part2">
+									<h3 class="card-timetable__name">Дыхательные практики</h3>
+									<div class="card-timetable__text">Упражнения.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="subscribe">
+				<div class="subscribe__container">
+					<h2 class="subscribe__title"><span class="subscribe__title-span">Подпишитесь на рассылку</span></h2>
+					<form class="subscribe__form" action="#">
+						<div class="subscribe__inputs">
+							<input data-required autocomplete="off" type="email" name="form[]" data-error="Некорректный адрес e-mail" placeholder="Ваш e-mail" class="subscribe__input input  _form-error">
+							<div class="checkbox">
+								<input data-required required id="box" class="checkbox__input" type="checkbox" checked value="1" name="form[]">
+								<label for="box" class="checkbox__label"><span class="checkbox__text">Согласен с обработкой <a class="underline" href="#">персональных данных</a></span></label>
+							</div>
+						</div>
+						<button type="submit" class="subscribe__button button button_middle">ПОДПИСАТЬСЯ</button>
+					</form>
+				</div>
+			</section>
+			<div id="about" class="about">
+				<div class="about__container">
+					<div class="about__body">
+						<h2 class="about__title">О компании</h2>
+						<div class="about__text">Наша компания является одной из немногих, кто предлагает фитнес услуги онлайн! Оставайтесь с нами и вы сами увидите, что мы проводим не только онлайн-тренировки.</div>
+						<button data-popup="#Marathon" data-da=".about__items, 767.98" type="button" class="about__button button button_about">Записаться</button>
+					</div>
+					<div class="about__image-ibg">
+						<picture><source srcset="img/about/image.webp"type="image/webp"><img src="img/about/image.jpg" alt="image"></picture>
+					</div>
+					<div class="about__items items-about">
+						<div class="items-about__item">
+							<h3 class="items-about__title">Экономия времени</h3>
+							<div class="items-about__text">Не нужно тратить время на дорогу</div>
+						</div>
+						<div class="items-about__item">
+							<h3 class="items-about__title">Индивидуальный подход</h3>
+							<div class="items-about__text">Внимание тренера пренадлежит только вам</div>
+						</div>
+						<div class="items-about__item">
+							<h3 class="items-about__title">Экономия денег</h3>
+							<div class="items-about__text">Средняя цена одной тренировки - 700₽</div>
+						</div>
+						<div class="items-about__item">
+							<h3 class="items-about__title">Опытный персонал</h3>
+							<div class="items-about__text">Стаж работы у наших тренеров от 5 лет</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top">
+					<div class="footer__logo">
+						<img src="img/logo/logo.svg" alt="">
+					</div>
+					<ul class="footer__menu menu-footer">
+						<li data-goto="#events" class="menu-footer__item"><a class="menu-footer__link" href="#">Мероприятия</a></li>
+						<li data-goto="#timetable" class="menu-footer__item"><a class="menu-footer__link" href="#">Расписание</a></li>
+						<li data-goto="#about" class="menu-footer__item"><a class="menu-footer__link" href="#">О компании</a></li>
+					</ul>
+					<div class="footer__contacts">
+						<a href="#" class="footer__mail">info@freefit.com</a>
+						<div class="footer__social social">
+							<a href="#" class="social__item"><img src="img/logo/instagram.svg" alt=""></a>
+							<a href="#" class="social__item"><img src="img/logo/facebook.svg" alt=""></a>
+						</div>
+					</div>
+				</div>
+				<div class="footer__info">
+					<div class="footer__policy">© 2020, Все права защищены</div>
+					<div class="footer__made">Сделано в рамках курса учебной платформы <a class="underline" href="#">Frontend Blok</a></div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<div id="Marathon" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"><img src="img/logo/close.svg" alt="1"></button>
+				<div class="popup__body">
+					<div class="popup__title">Заявка на участие <br> «Марафон выносливости»</div>
+					<div class="popup__text">
+						Заполните все поля, и мы пришлем информацию в ближайшее время
+					</div>
+					<form action="#" class="popup__form">
+						<div class="popup__line">
+							<input data-required autocomplete="off" type="email" name="form[]" data-error="Некорректный адрес e-mail" placeholder="Ваш e-mail" class="popup__input input _form-error">
+						</div>
+						<div class="popup_line">
+							<input data-required autocomplete="off" type="tel" name="form[]" data-error="Некорректный номер телефона" placeholder="Ваш номер телефона" class="popup__input input _form-error">
+						</div>
+						<button type="submit" class="popup__button button">ОТПРАВИТЬ</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="js/app.min.js?_v=20220118151214"></script>
+</body>
+
+</html>
